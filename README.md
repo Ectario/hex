@@ -12,31 +12,32 @@ Cd in home `cd ~` and then depending of if you have zsh bash `nano .zshrc` or `n
 Then creating aliases: 
 
 `alias hex="python3 /home/USERNAME/.../hex/hex.py"`
+
 `alias hexd="python3 /home/USERNAME/.../hex/hex.py -d"`
 
 # Usage
 - hex.py -d to decode the hexadecimal
 
- `~$ python3 hex.py -d < textInHexa.txt`
+  `~$ python3 hex.py -d < textInHexa.txt`
         
- `~$ echo "7475746f0a" | python3 hex.py -d`
+  `~$ echo "7475746f0a" | python3 hex.py -d`
         
 - hex.py to encode in hexadecimal 
 
- `~$ python3 hex.py < textInASCII.txt`
+  `~$ python3 hex.py < textInASCII.txt`
  
- `~$ echo "tuto" | python3 hex.py`
+  `~$ echo "tuto" | python3 hex.py`
 
-*If you have aliases*
+###   ↓ *If you have aliases* ↓
 
 - hex -d to decode the hexadecimal
 
- `~$ hexd < textInHexa.txt`
+  `~$ hexd < textInHexa.txt`
         
- `~$ echo "7475746f0a" | hexd`
+  `~$ echo "7475746f0a" | hexd`
         
 - hex to encode in hexadecimal 
 
- `~$ hex < textInASCII.txt`
+  `~$ hex < textInASCII.txt`
  
- `~$ echo "tuto" | hex`
+  `~$ echo "tuto" | hex`
