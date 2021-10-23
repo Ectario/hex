@@ -3,17 +3,21 @@ Quick command to translate from hex to str and str to hex.
 
 # Installation
 
-- Get the project : `git clone https://github.com/Ectario/hex.git`
+- Get the project : `~$ git clone https://github.com/Ectario/hex.git`
 
 - Add aliases if wanted :
 
-Cd in home `cd ~` and then depending of if you have zsh bash `nano .zshrc` or `nano .bashrc` 
+Cd in home `~$ cd ~` and then depending of if you have zsh bash `~$ nano .zshrc` or `~$ nano .bashrc` 
 
 Then creating aliases: 
 
 `alias hex="python3 /home/USERNAME/.../hex/hex.py"`
 
 `alias hexd="python3 /home/USERNAME/.../hex/hex.py -d"`
+
+Activate aliases:
+
+`~$ source .bashrc` or `~$ source .zshrc`
 
 # Usage
 - hex.py -d to decode the hexadecimal
