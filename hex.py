@@ -6,14 +6,14 @@ import sys, binascii
 
 def usage(status):
     print("Usage :\n\
-        *- hex -d to decode the hexadecimal, hex to encode in hexadecimal -*\n\n\
-        ~$ hex -d < textInHexa.txt\n\
+        *- hex.py -d to decode the hexadecimal, hex.py to encode in hexadecimal -*\n\n\
+        ~$ python3 hex.py -d < textInHexa.txt\n\
         OR\n\
-        ~$ echo \"7475746f0a\" | hex -d\n\
+        ~$ echo \"7475746f0a\" | python3 hex.py -d\n\
         OR\n\
-        ~$ hex < textInASCII.txt\n\
+        ~$ python3 hex.py < textInASCII.txt\n\
         OR\n\
-        ~$ echo \"tuto\" | hex\n")
+        ~$ echo \"tuto\" | python3 hex.py\n")
     sys.exit(status)
 
 def decode(hexa):
