@@ -7,7 +7,7 @@ Quick command to translate from hex to str and str to hex.
 
 - Add aliases if wanted :
 
-Cd in home `~$ cd ~` and then depending of if you use zsh or bash `~$ nano .zshrc` or `~$ nano .bashrc` 
+Cd in home `~$ cd` and then depending of if you use zsh or bash `~$ nano .zshrc` or `~$ nano .bashrc` 
 
 Then creating aliases: 
 
