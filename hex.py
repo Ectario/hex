@@ -17,7 +17,7 @@ def usage(status):
     sys.exit(status)
 
 def decode(hexa):
-    if type(hexa) == hex:
+    if isinstance(hexa,hex):
         print(hexa)
         return
     try:
